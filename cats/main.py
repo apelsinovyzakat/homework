@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageEnhance
 
-file_path = "C:\\Users\\timur\\Downloads\\55bc0bed-83df-49ab-9e5d-3123be93eafc (1).png"
+file_path = "55bc0bed-83df-49ab-9e5d-3123be93eafc (1).png"
 image_cv = cv2.imread(file_path, cv2.IMREAD_UNCHANGED)
 
 def rotate_image(image, angle):
